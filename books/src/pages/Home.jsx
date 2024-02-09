@@ -62,7 +62,7 @@ function BooksPage() {
             <h4>{item.title}</h4>
             <p>
               <span>
-                <h3>{item.averageRating ? `${item.averageRating}⭐` : "UR"}</h3>
+                <h3>{item.averageRating ? `${item.averageRating}⭐` : "--"}</h3>
                 <h3 className="cost">FREE</h3>
               </span>
             </p>
