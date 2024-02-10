@@ -42,7 +42,7 @@ function BooksPage() {
   return (
     <div className="mainpage">
       <div className="header">
-        <span className="logo">Ocean of Books</span> {}
+        <span className="logo">Kalvium Books</span> {}
         <Link to="/register">
           <button className="button">Register</button>
         </Link>
